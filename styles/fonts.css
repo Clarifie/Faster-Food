@@ -1,0 +1,23 @@
+@font-face {
+    font-family: Lexend;
+    src: url("../resources/Fonts/Lexend-Light.ttf");
+    font-weight: lighter;
+}
+
+@font-face {
+    font-family: Lexend;
+    src: url("../resources/Fonts/Lexend-Medium.ttf");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Lexend;
+    src: url("../resources/Fonts/Lexend-SemiBold.ttf");
+    font-weight: bolder;
+}
+
+@font-face {
+    font-family: Lexend;
+    src: url("../resources/Fonts/Lexend-Bold.ttf");
+    font-weight: bold;
+}
