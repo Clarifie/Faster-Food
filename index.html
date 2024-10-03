@@ -3,13 +3,30 @@
     <title>Faster Food</title>
     <link rel="stylesheet" href="styles/fonts.css"></link>
     <link rel="stylesheet" href="styles/main.css"></link>
+    <link rel="stylesheet" href="styles/login.css"></link>
 </head>
 <body>
     <div id="login-card">
-        <div>
+        <div id="login-card-content">
             <h1>Faster Food Login</h1>
-            <h2>Username</h2>
-            <h2>Password</h2>
+            <hr>
+            <div id="login-card-form">
+                <h2>Username</h2>
+                <input type="text" placeholder="Username" class="login-input">
+                <hr>
+                <h2>Password</h2>
+                <input type="text" placeholder="Password" class="login-input">
+                <hr>
+            </div>
+            <p>Are you part of a business? <a href="#">Login as business.</a></p>
+            <div id="login-button-holder">
+                <a href="#" class="login-button" id="login-button-guest">
+                    Guest
+                </a>
+                <a href="verify.html" class="login-button" id="login-button-account">
+                    Login
+                </a>
+            </div>
         </div>
     </div>
 </body>
