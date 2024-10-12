@@ -24,12 +24,24 @@
 }
 
 #search-bar {
-    margin-top: 2rem;
-    margin-bottom: 0;
+    position: fixed;
+    /* margin-top: 2rem;
+    margin-bottom: 0; */
     border-radius: 3.2rem;
     background-color: white;
     width: 60%;
-    height: calc(100% - 2rem);
+    height: 3.5rem;
+    top: 2rem;
+    left: 50%;
+    margin-left: -30%;
+    box-shadow: -3px 8px 0px #3030304e;
+    transition-duration: 0.2s;
+}
+#search-bar:focus-within {
+    top: 1.5rem;
+    height: 80%;
+    width: 66%;
+    margin-left: -33%;
 }
 
 .card {
