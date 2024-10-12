@@ -37,11 +37,17 @@
     box-shadow: -3px 8px 0px #3030304e;
     transition-duration: 0.2s;
 }
+#search-bar > div {
+    display: none;
+}
 #search-bar:focus-within {
     top: 1.5rem;
     height: 80%;
     width: 66%;
     margin-left: -33%;
+}
+#search-bar:focus-within > div {
+    display:block;
 }
 
 .card {
