@@ -1,0 +1,44 @@
+.main-content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#business-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    overflow-y: auto;
+    scroll-snap-type: y mandatory;
+}
+
+#search-container {
+    flex: 1;
+    padding: 0;
+    min-height: 6rem;
+    max-height: 6rem;
+    display: flex;
+    justify-content: center;
+}
+
+#search-bar {
+    margin-top: 2rem;
+    margin-bottom: 0;
+    border-radius: 3.2rem;
+    background-color: white;
+    width: 60%;
+    height: calc(100% - 2rem);
+}
+
+.card {
+    scroll-snap-align: center;
+    background-color: white;
+    border-radius: 3.2rem;
+    height: calc(100% - 4rem);
+    min-width: 18rem;
+    min-height: 30rem;
+    flex: 1;
+    margin: 2rem;
+}

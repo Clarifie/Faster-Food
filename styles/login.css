@@ -1,16 +1,21 @@
+.main-content {
+    display: flex;
+    justify-content: center;
+    /* align-items:center; */
+}
+
 #login-card {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: start;
     border-top-left-radius: 4.2rem;
     border-top-right-radius: 4.2rem;
     width: 60%;
     height: fit-content;
+    max-height: 100%;
     min-height: 90%;
     position: absolute;
     bottom: 0;
-    left: 50%;
-    margin-left: -30%;
     padding-top: 2rem;
     padding-bottom: 2rem;
     box-sizing: border-box;
@@ -97,7 +102,6 @@
 @media screen and (1025px <= width <= 1200px) {
     #login-card {
         width: 70%;
-        margin-left: -35%;
         min-height: 93%;
     }
 }
@@ -105,7 +109,6 @@
 @media screen and (769px <= width <= 1024px) {
     #login-card {
         width: 80%;
-        margin-left: -40%;
         min-height: 95%;
     }
 }
@@ -113,7 +116,6 @@
 @media (503px <= width <= 768px) {
     #login-card {
         width: 90%;
-        margin-left: -45%;
         min-height: 95%;
     }
 }
@@ -121,7 +123,6 @@
 @media (363px <= width <= 502px) {
     #login-card {
         width: 100%;
-        margin-left: -50%;
         min-height: 97%;
     }
 }
@@ -129,7 +130,6 @@
 @media (width <= 362px) {
     #login-card {
         width: 100%;
-        margin-left: -50%;
         min-height: 97%;
     }
 
