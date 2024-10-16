@@ -24,10 +24,12 @@
 }
 
 #search-bar {
+    box-sizing: border-box;
     position: fixed;
+    padding: 1rem;
     /* margin-top: 2rem;
     margin-bottom: 0; */
-    border-radius: 3.2rem;
+    border-radius: 2rem;
     background-color: white;
     width: 60%;
     height: 3.5rem;
@@ -42,7 +44,7 @@
 }
 #search-bar:focus-within {
     top: 1.5rem;
-    height: 80%;
+    height: fit-content;
     width: 66%;
     margin-left: -33%;
 }
@@ -53,7 +55,7 @@
 .card {
     scroll-snap-align: center;
     background-color: white;
-    border-radius: 3.2rem;
+    border-radius: 2rem;
     height: calc(100% - 4rem);
     min-width: 18rem;
     min-height: 30rem;
