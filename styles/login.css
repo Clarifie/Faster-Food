@@ -72,6 +72,11 @@
     text-decoration: none;
 }
 
+#login-button-worker {
+    background-color: #ff8b16ff;
+    margin-left: 15.5rem;
+}
+
 #login-button-guest {
     background-color: #f9cb9cff;
 }
