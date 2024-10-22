@@ -21,7 +21,8 @@ hr {
     width: 30%;
     margin-left: 1rem;
     margin-bottom: 0.8rem;
-    margin-top: 0.8rem;
+    margin-top: 0.5rem;
+    color: #595959;
 }
 
 h1 {
@@ -138,22 +139,36 @@ h2 {
 }
 
 .card-header {
-    margin: 2rem;
+    margin: 1.5rem;
+    margin-bottom: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: top;
+    column-gap: 1rem;
+}
+
+.card-subheader {
+    margin: 1.5rem;
     margin-bottom: 1rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
+    align-items: top;
     column-gap: 1rem;
 }
 
 .business-image {
-    max-width: 30%;
+    max-width: 15%;
+    margin-right: 1rem;
 }
 
 .business-main {
-    text-align: center;
     flex: 1 1 auto;
+}
+
+.business-main p {
+    margin-left: 3rem;
 }
 
 .flex-image-container {
@@ -189,4 +204,18 @@ td.on {
 
 td.off {
     background-color: #ccccccff;
+}
+
+.rating-num {
+    text-align: left;
+    font-weight: 600;
+    font-size: 300%;
+    line-height: 1rem;
+    margin-left: 2rem;
+    margin-top: 2.5rem;
+    color: #ff8b16ff;
+}
+
+.rating-description {
+    margin-left: 2rem;
 }
