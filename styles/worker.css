@@ -113,7 +113,8 @@ h2 {
     min-width: 60rem;
     min-height: 30rem;
     flex: 2;
-    margin: 1.0rem;
+    margin-left: 2.0rem;
+    margin-right: 1.0rem;
     box-shadow: -3px 8px 0px #3030304e;
 }
 
