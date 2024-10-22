@@ -43,7 +43,7 @@ h2 {
     justify-content: space-around;
     align-items: center;
     flex-grow: 1;
-    flex-wrap: wrap;
+    flex-wrap: 1;
     overflow-y: auto;
     scroll-snap-type: y mandatory;
 }
@@ -102,27 +102,32 @@ h2 {
     justify-content: space-between;
     column-gap: 2rem;
 }
-.search-business-image {
-    max-width: 10rem;
-    min-width: 1rem;
-}
 
-.search-business-content {
-    flex: 1 1 auto;
-    min-width: 15rem;
-}
-
-.card {
+.busicard {
     display: flex;
     flex-direction: column;
     scroll-snap-align: center;
     background-color: white;
     border-radius: 2rem;
     height: calc(100% - 4rem);
-    min-width: 18rem;
+    min-width: 60rem;
     min-height: 30rem;
-    flex: 1;
-    margin: 2rem;
+    flex: 2;
+    margin: 1.0rem;
+    box-shadow: -3px 8px 0px #3030304e;
+}
+
+.busitime {
+    display: flex;
+    flex-direction: column;
+    scroll-snap-align: center;
+    background-color: white;
+    border-radius: 2rem;
+    height: calc(100% - 4rem);
+    min-width: 12rem;
+    min-height: 30rem;
+    flex: 2;
+    margin: 1.0rem;
     box-shadow: -3px 8px 0px #3030304e;
 }
 
