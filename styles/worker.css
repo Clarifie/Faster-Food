@@ -7,6 +7,8 @@
 /* bru */
 .hidden-text {
     color: #595959;
+    font-weight: 400;
+    text-align: center;
     font-size: 1.9rem;
     box-shadow: none;
     outline: none;
