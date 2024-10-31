@@ -19,6 +19,16 @@ hr {
     transform: scale(2, 2);
 }
 
+.button {
+    display:block;
+    border-radius: 1rem;
+    padding: 0.8rem;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-decoration: none;
+}
+
 @media screen and (1025px <= width <= 1200px) {
     html {
         font-size: 110%;
