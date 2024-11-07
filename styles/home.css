@@ -162,13 +162,11 @@ h2 {
     border-radius: 0.8rem;
 }
 
-.home-button-layout {
-    margin: 0.9rem;
-}
-
 .home-button-transform {
     height: 100px;
     border-radius: 0.2rem;
+    position: fixed;
+    left: 0;
 }
 
 .time-bar-container {
