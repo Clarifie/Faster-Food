@@ -86,6 +86,7 @@ h2 {
     max-height: 60vh;
     overflow-y: auto;
 }
+
 #search-bar:focus-within {
     top: 1.5rem;
     height: fit-content;
@@ -93,6 +94,16 @@ h2 {
     margin-left: -33%;
 }
 #search-bar:focus-within > #search-bar-content {
+    display:block;
+}
+
+#search-bar:hover {
+    top: 1.5rem;
+    height: fit-content;
+    width: 66%;
+    margin-left: -33%;
+}
+#search-bar:hover > #search-bar-content {
     display:block;
 }
 
